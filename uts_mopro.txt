@@ -1,0 +1,9 @@
+1. Tag xml ImageView
+2. Contoh atribut tag xml
+3. ILikePracticeSetsTheBest
+4. view group
+5. android:layout_alignParentBottom="true"
+   android:layout_centerHorizontal="true"
+6. Koding no 6 merupakan contoh linear layout, dimana:
+   6(1) menggunakan orientasi vertikal (berurut ke bawah), 
+   6(2) menggunakan orientasi horizontal (berurut ke samping).

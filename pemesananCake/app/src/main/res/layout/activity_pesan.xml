@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Anda Memesan :"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNamaCake"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtPesan"
+        android:gravity="center"
+        android:hint="Pesan anda pada kartu nama"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:id="@+id/edtTujuan"
+        android:hint="Nama tujuan"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From" />
+    <EditText
+        android:layout_height="wrap_content"
+        android:id="@+id/edtPengirim"
+        android:layout_width="wrap_content"
+        android:hint="nama pengirim"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmit"
+        android:text="Submit"/>
+
+
+
+</LinearLayout>
